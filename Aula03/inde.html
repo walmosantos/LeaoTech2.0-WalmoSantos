@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      td,
+      tr,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com tabelas</h1>
+
+    <h2>colspan</h2>
+
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>19</td>
+        <td>Fortaleza</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td colspan="2">40</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <br />
+
+
+
+    <h2>rowspan</h2>
+    <table id>
+      <tr>
+        <th>Framework</th>
+        <th>Linguagens</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Python</td>
+        <td>Flask</td>
+      </tr>
+      <tr>
+        <!-- <td>Python</td> --> 
+        <td>Fastapi</td>
+      </tr>
+      <tr>
+        <td rowspan="2">JavaScript</td>
+        <td>React</td>
+      </tr>
+      <tr>
+        <!-- <td>JavaScript</td> -->
+        <td>Angular</td>
+      </tr>
+    </table>
+
+    <h2> Formularios</h2>
+
+    <form>
+
+
+        <label for="nome">Nome:</label> <br>
+        <input id="nome" type="text">
+        <br>
+        <br>
+        <label for="password">Senha:</label> <br>
+        <input id="password" type="password">
+        <br>
+        <br>
+        <label for="email">Email:</label> <br>
+        <input id="email" type="email"> <br>
+        <br>
+        <br> 
+        <label for="Idade">Idade:</label> <br>
+        <input id="Idade" type="number">
+        <br>
+        <br>
+       <h2>vagas:</h2> <br>
+
+       <input type="radio" name="vaga">
+       <label for="dev">Desenvolvedor:</label> 
+        <br>
+       <input type="radio" name="vaga">
+       <label for="qa">Qualidade:</label> <br>
+
+       <input type="radio" name="vaga"> 
+       <label for="pm">Gerente de Projeto:</label> <br> 
+        
+      <h3>Linguagens conhecidas</h3>
+      <input type="checkbox" name="linguagem">
+      <label for="python">python</label> <br>
+      <input type="checkbox" name="linguagem">
+      <label for="javascript">JavaScript</label> <br>
+      <input type="checkbox" name="linguagem">
+      <label for="java">Java</label> <br> <br>
+
+      <label for="comentario">Comentario:</label> <br>
+      <textarea name="comentario" id="comentario" rows="5" cols="30" placeholder="Digite aqui seu texto...">
+    </textarea>
+    <br>
+    </br>
+
+    <label for="cidades">Selecione a Cidade</label>
+    <select>
+      <option value="opcao1">Opção 1</option>
+      <option value="opcao2">Opção 2</option>
+      <option value="opcao3">Opção 3</option>
+    </select>
+    </form>
+
+  </body>
+</html>
