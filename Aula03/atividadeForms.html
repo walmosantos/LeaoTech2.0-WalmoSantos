@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <style>
+        div {
+            background-color: lightslategray;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div>
     <form>
     <label for="Nome">Nome:</label> <br>
     <input type="text" id="Nome" name="nome" required placeholder="Digite seu nome"> 
@@ -14,15 +23,37 @@
     <label for="Email">Email:</label> <br>
     <input type="text" id="Email" name="email" required placeholder="Digite seu email">
      <br>
-     <br>   
-    <label for="Senha">Senha:</label> <br>
-    <input type="text" id="Senha" name="Senha" required placeholder="Digite sua senha">
+     <br> 
+    <label for="cargo">Cargo de tecnologia:</label>
+    <select id="cargo"> 
+      <option value="opcao1">Pessoa de desenvolvedora</option>
+      <option value="opcao2">Pessoa de qualidade</option>
+      <option value="opcao3">Pessoa de gerência de projeto</option>
+    </select>
      <br>
      <br>   
-    <label for="Idade">Idade: </label> <br>
-    <input type="number" id="Idade" name="Idade" required placeholder="Digite sua idade"> <br> <br> <br>
+    <label for="genero">Gênero:</label> 
+    <input type="radio" id="genero" name="genero"> 
+     <label for="genero">Masculino</label> 
+    <input type="radio" id="genero" name="genero"> 
+        <label for="genero">Feminino</label> 
+    <input type="radio" id="genero" name="genero"> 
+    <label for="genero">Outro</label> 
+    <br><br>
+    <label for="interesse">Unidade de Interesse:</label>
+    <input type="checkbox" id="interesse" name="interesse">
+    <label for="interesse">Fortaleza</label>
+    <input type="checkbox" id="interesse" name="interesse">
+    <label for="interesse">Maracanau</label>
+    <input type="checkbox" id="interesse" name="interesse">
+    <label for="interesse">Maranguape</label>
+    <br><br>
+    <label for="falesobrevoce">Fale sobre você:</label> <br>
+    <textarea id="falesobrevoce" name="falesobrevoce" rows="5" cols="30" placeholder="Conte-nos mais sobre você..."></textarea>
 
+    <br><br><br>
     <input type="button" value="Enviar"> 
-    </form>   
+    </form>
+    </div>   
 </body>
 </html>
