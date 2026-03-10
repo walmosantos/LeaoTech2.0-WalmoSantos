@@ -14,3 +14,5 @@ git init // iniciar o git no terminal caso não estiver
 dont pad leaotech https://dontpad.com/LeaoTech02
 github professor https://github.com/dionisio300/LeaoTech.git
 drive de atividades https://drive.google.com/drive/folders/1ay-JwHSEBdpHvKaZ8IKW1PCquAmaHiaZ
+notion css  https://glossy-juice-9c1.notion.site/CSS-1d02d95e81e0819085c1c85d11ce3c85
+
