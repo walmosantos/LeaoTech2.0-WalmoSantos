@@ -1,0 +1,24 @@
+header {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+main {
+    background-color: grey;
+
+}
+#l1{
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+body {
+    background-color: black;
+}
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
