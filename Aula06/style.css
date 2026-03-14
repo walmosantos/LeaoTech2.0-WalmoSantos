@@ -1,0 +1,33 @@
+.container {
+    border: 2px solid black;
+    padding: 10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: start;
+    align-content: start;
+    align-items: end;   
+}
+
+.container div {
+    margin: 5px;
+}
+
+.div1{
+    background-color: red;
+    width: 100px;
+    height: 150px;
+}
+
+.div2{
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+}
+
+.div3{
+    background-color: purple;
+    width: 100px;
+    height: 150px;
+}
+

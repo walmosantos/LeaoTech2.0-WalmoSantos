@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #a83232;
+    margin: 32;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+a {
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    display: flexbox;
+    justify-content: center;
+}
