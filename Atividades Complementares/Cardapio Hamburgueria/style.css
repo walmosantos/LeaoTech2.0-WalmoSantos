@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+body{
+    background-image: image("/img/bg.png");
+}
+
+:root{
+    --corBox:rgba(37, 37, 37, 0.8);
+    --corBarraNavegacao:rgb(30, 31, 34);
+    --subTitulo: rgb(255, 174, 0);
+}
