@@ -1,0 +1,56 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.section-gap {
+    padding: 64px 0;
+}
+
+.placeholder-box {
+    background: #ffffff;
+    border: 2px dashed #c8c8c8;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.placeholder-title {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #6c757d;
+}
+
+.dark-box {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+.dark-box .placeholder-title {
+    color: #f1f1f1;
+}
+
+.hero-min { min-height: 280px; }
+.about-min { min-height: 300px; }
+.contact-highlight-min { min-height: 78px; }
+.feature-min { min-height: 170px; }
+.stat-min { min-height: 105px; }
+.section-title-min { min-height: 90px; }
+.menu-min { min-height: 220px; }
+.testimonial-min { min-height: 180px; }
+.event-min { min-height: 260px; }
+.chef-min { min-height: 340px; }
+.booking-image-min { min-height: 260px; }
+.booking-form-min { min-height: 260px; }
+.gallery-min { min-height: 120px; min-width: 160px; }
+.contact-card-min { min-height: 90px; }
+.contact-form-min { min-height: 220px; }
+.footer-min { min-height: 90px; }
+.copyright-min { min-height: 72px; }
+
+@media (max-width: 767.98px) {
+    .section-gap {
+        padding: 44px 0;
+    }
+}
