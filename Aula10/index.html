@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula10</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Revisão de responsividade</h1>
+    <div class="container">
+        <p class="text-lg-end text-md-center text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non a, hic qui cupiditate ipsam suscipit inventore assumenda nulla id dolorem aliquam, in sequi, necessitatibus vel saepe odit molestias doloremque dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur necessitatibus beatae nulla, quod sit nobis quaerat earum sed nam deserunt commodi culpa esse enim impedit nihil error labore quae perspiciatis.</p>
+    </div>
+
+    <style>
+        .caixa {
+            height: 60px;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 caixa bg-danger-subtle">
+                <p>caixa1</p>
+            </div>
+
+             <div class="col-12 col-md-6 col-lg-4 caixa bg-success-subtle">
+                <p>caixa2</p>
+            </div>
+
+             <div class="col-12 col-md-12 col-lg-4 caixa bg-info-subtle d-none d-md-block">
+                <p>caixa3</p>
+            </div>
+        </div>
+    </div>
+
+
+    <h1>Offset</h1>
+     <div class="container border border-dark">
+        <div class="row">
+            <div class="col-3 caixa bg-danger-subtle">
+                <p>caixa1</p>
+            </div>
+
+             <div class="col-3 offset-1 caixa bg-success-subtle">
+                <p>caixa2</p>
+            </div>
+
+            <div class="col-3 caixa offset-2 bg-warning-subtle">
+                <p>caixa2</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</html>
