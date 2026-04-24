@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+<style>
+    .caixa{
+        align-items: center;
+        margin-right: 5px;
+        justify-content: center;
+        height: 100px;
+        display: flex;
+    }
+    </style>
+
+<body style="margin-bottom: 500px;">
+<h1>alterando atributos e estilos</h1>
+     <button onclick="mudarDeCor()" class="btn btn-success mt-2">mudar de cor</button>
+    <div class="d-flex">
+    <div id="caixa1" class="caixa bg-success d-none">
+       caixa1
+    </div>
+
+    <div id="caixa2" class="caixa bg-danger d-none">
+       caixa2
+    </div>
+    </div>
+</body>
+<script>
+    function mudarDeCor(){
+        let caixa = document.getElementById('caixa1')
+        // console.log(caixa.classList.remove('d-none'))
+        // caixa.classList.add('arrendondado')
+        caixa.classList.toggle('d-none')        
+    }
+
+        let caixa2 = document.getElementById('caixa2') 
+        caixa2.addEventListener('click', () => {
+            caixa2.classList.remove('bg-danger')
+            caixa2.classList.remove('bg-warning')
+
+        })
+</script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+</html>
