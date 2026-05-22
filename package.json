@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cypress": "^15.15.0",
+    "router-dom": "^3.0.3"
+  }
+}
