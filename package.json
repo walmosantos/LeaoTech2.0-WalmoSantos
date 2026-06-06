@@ -2,5 +2,25 @@
   "dependencies": {
     "cypress": "^15.15.0",
     "router-dom": "^3.0.3"
-  }
+  },
+  "name": "leaotech2.0-walmosantos",
+  "version": "1.0.0",
+  "description": "Codigos do curso\r Feito por Walmo Santos do Nascimento",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walmosantos/LeaoTech2.0-WalmoSantos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/walmosantos/LeaoTech2.0-WalmoSantos/issues"
+  },
+  "homepage": "https://github.com/walmosantos/LeaoTech2.0-WalmoSantos#readme"
 }
